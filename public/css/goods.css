@@ -1,0 +1,87 @@
+#content{
+    width: 80%;
+    margin: auto;
+}
+#content ul>li{
+    width: 24%;
+}
+#content .item-sh{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color:#000;
+    position: relative;
+}
+.item-sh>span{
+    font-weight: 700;font-size: 1rem;
+}
+.item-sh img{
+    width: 100%;
+}
+.item-sh .img-hd{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+}
+.item-sh .img-hd>:first-child{
+    width: 100%;height: 103%;
+    border-bottom:1px solid #ccc; 
+}
+.item-sh .img-hd>:first-child>p{
+    margin:auto;
+    font-size: 0.8rem;
+    transform: translateY(93%);
+    width: 50%;height: 30%;
+    box-sizing: border-box;
+    padding: 5% 0;
+    border: 0.4rem solid #000;
+}
+.item-sh .img-hd>:last-child{
+    width: 100%;height: 30%;
+    display: none;
+    background: #fff;
+}
+.item-sh .img-hd:hover{
+    opacity: 1;
+}
+.item-sh .img-hd:hover .img-show{
+    opacity: 0.5;
+}
+.item-sh .img-hd:hover>:last-child{
+    display: block;
+}
+.item-price,.item-sell{
+    text-align: center;
+    margin-top: 0.3rem;
+}
+.item-price .now{
+    color: rgb(229, 106, 105);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: 0.4rem;
+}
+.item-price .old{
+    color: rgb(160,160,160);
+    font-size: 0.8rem;
+    text-decoration: line-through;
+}
+.item-sell{
+    margin: auto;
+    width: 60%;
+    justify-content: center;
+}
+.item-sell>:first-child{
+    padding: 0.2rem 0.4rem;
+    color: rgb(229, 106, 105);
+    background: rgb(255, 237, 237);
+    margin-right: 0.3rem;
+}
+.item-sell>:last-child{
+    padding: 0.2rem 0.4rem;
+    color: rgb(121,121,121);
+    background: rgb(246, 246, 246);
+}

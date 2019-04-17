@@ -1,0 +1,89 @@
+header {
+	width: 100%;
+	background: #000;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+}
+header a{
+	font-size: .7rem;
+	color: #fff;
+}
+header #logo a{
+	display: inline-block;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: url(../img/base/1d57b0019f94a0448f07cbab678da19e.png) no-repeat;
+}
+header .left{
+	width: 50%;
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+header .left>li:nth-child(2),header .left>li:not(:first-child):hover{
+	padding: 0.4rem 0;
+	border-bottom:2px solid #fff;
+}
+header .right{
+	width: 30%;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-around;
+}
+header .right li:not(:first-child){
+	padding: 0.4rem 0
+}
+header .right li:first-child  span{
+	width: 18px;
+	height: 27px;
+	margin-right: 5px;
+	vertical-align: middle;
+	display: inline-block;
+	background:url(../img/base/icon-20_bcc4089.png) no-repeat;
+	background-position: -302px -40px;
+	transform: scale(0.7);
+}
+header .right li:first-child a:hover{
+	border-bottom: 2px solid #fff;
+	padding: 0.4rem 0;
+}
+header .right li:nth-child(2):hover,header .right li:nth-child(3):hover{
+	border-bottom: 2px solid #fff;
+}
+header .right li a img{
+	width: 25px;
+}
+/* 隐藏框 */
+header .left  .hidDiv{
+	position: fixed;
+	top:2.2rem;
+	left: 0;
+	background: #181818;
+	display: none;
+	z-index: 9;
+}
+.hidDiv ul{
+	width: 70%;
+	margin: auto;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 1rem;
+}
+.hidDiv ul li{
+	float: left;
+}
+.hidDiv ul li img,.hidDiv ul li p{
+	width: 60px;
+}
+.hidDiv ul li p{
+	color:#fff;
+	text-align: center;
+}
+/* 隐藏框 */

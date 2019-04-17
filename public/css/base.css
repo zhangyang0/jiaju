@@ -1,0 +1,107 @@
+@charset "utf-8";
+/*通用*/
+body {
+    font: 12px siyuan,"Microsoft YaHei",sans-serif;
+    color: #666;
+    margin: 0px;
+    padding: 0px;
+}
+a,a:hover{
+    text-decoration: none;
+}
+i,b,em{
+    font-style: normal;
+}
+input:focus{
+    outline: 0;
+}
+#nav a {
+    color: #cccccc;
+}
+#nav a:hover{
+    color: #b8b8b8;
+}
+#nav a:focus{
+	color:#0aa1ed;
+}
+ul, li, p, h1, h2, h3, h4, h5, h6, dl, dt, dd {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    list-style: none;
+}
+input {
+    border: none;
+}
+.lf {
+    float: left;
+}
+.rt {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.d-none{
+    display: none;
+}
+.d-flex{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+a.double{
+    margin-top: 1rem;
+    color: #fff;
+    display: block;
+    padding:0.3rem 0.5rem;
+    border:2px solid #fff;
+    text-align: center;
+}
+a.double:hover{
+    color: #000;
+    border: 2px solid #000;
+}
+img.w-100{
+    width: 100%;
+}
+button.black{
+    background: #000;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding:0.3rem .8rem;
+    opacity: .8;
+    font-size: .7rem;
+}
+button.black:hover{
+    opacity: 1;
+}
+.fw{
+    font-size: .8rem;
+    color: #000;
+    font-weight: 700;
+}
+.lthrought{
+    font-size: 0.5rem;
+    color: #cccccc;
+    text-decoration: line-through;
+}
+/*****siderbar*****/
+#sidebar>div>a{
+    height: 2.1rem;
+    display: block;
+    transform: scale(.7)
+}
+#sidebar>.to_top::after{
+    content:"回顶部";
+}
+#sidebar>.to_top>a{
+    background:url("../img/index/sidebar-icon_a1de432.png") no-repeat -1068px -18px;
+}
+#sidebar>.to_top>a:hover{
+    background-position: -788px -18px;
+}
+/*****siderbar END*****/

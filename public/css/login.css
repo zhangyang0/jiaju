@@ -1,0 +1,152 @@
+iframe{
+    width: 100%;
+    height: 52.5px;
+    position: fixed; 
+    z-index: 10;
+}
+#part-shop{
+    top:51px; 
+    width: 100%;
+    height: 900px;
+    bottom:-50px;
+     position: absolute; 
+    background: url(../img/base/d88925065008995f9633326d418de5f6.jpg) no-repeat;
+    background-size: cover;
+}
+section{
+    width: 25rem;
+    height: 25.5rem;
+    background: #fff;
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin-top:-12.5rem;
+    margin-left:-12.5rem;
+}
+section header{
+    width: 100%;
+    height: 7rem;
+    text-align: center;
+    position: relative;
+}
+section header div{ 
+    width: 100%;
+    position: absolute;
+    top:50%;
+    left:0;
+    margin-top: -0.5rem;
+}
+section header div span{
+    font-size: 1rem;
+    color: #a0a0a0;
+    font-weight: bold;
+    width: 8rem;
+    display: inline-block;
+    cursor: pointer;
+}
+section header span:first-child{
+    border-right: 2px solid #d2d2d2;
+}
+/* 公共样式 */
+section a{
+    color:black;
+    font-size: 13px;
+}
+section .login{
+    width: 17rem;
+    height: 12.75rem;
+    position: absolute;
+    top:7rem;
+    left:50%;
+    margin-left: -8.5rem;
+}
+section .login form>div:first-child,section .login form>div:first-child+div{
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 1px;
+    line-height: 2rem;
+    border-bottom:1px solid #d2d2d2;
+}
+section .login form>div:first-child{
+    margin-bottom: 1.3rem;
+}
+section .login form .lit{
+    width: 8rem;
+}
+section .login form button{
+    border-radius: 5px;
+    background-color:#d2d2d2;
+    border:0;
+    outline: 0;
+    color:#fff;
+}
+section .login form div[class="clear"]+div{
+    width: 100%;
+    margin-top: 2.6rem;
+    height: 2.3rem;
+}
+section .login form div[class="clear"]+div>button{
+    width: 100%;
+    height: 2.3rem;
+}
+section .login form div:last-child{
+    margin-top: 1.4rem;
+    text-align: center;
+}
+/* /公共样式 */
+section .phone  form>div:nth-child(2),section .phone  form>div:nth-child(3){
+        float: left;
+}  
+section .phone  form>div:nth-child(2){
+    width:11rem !important;
+    margin-right: 1rem;
+}
+section .phone  form>div:nth-child(3){
+    width:5rem !important;
+}
+section .phone  form .getTest button{
+    height: 2rem;
+    display: inline-block;
+}
+section footer{
+    width: 100%;
+    height: 3rem;
+    position: absolute;
+    background: #f6f6f6;
+    text-align: center;
+    line-height: 3rem;
+    bottom:0;
+}
+section .pwd{
+    display: none;
+}
+section .phone{
+    display: block;
+}
+/* 验证 */
+    .hidd{
+        display: none !important;
+    }
+    .show{
+        display: inline !important;
+    }
+    .test{
+        padding-left:17px; 
+    }
+    .fse{
+        color: red;
+    }
+    .fseBg{
+        background:url(../img/base/err.png) no-repeat;
+    }
+    .treBg{
+        background:url(../img/base/ok.png) no-repeat;
+    }
+    input+span+span{
+        margin-left: 100px;
+        color:#fff;
+    }
+    #sup{
+        margin-left: -20px !important;
+    }
+/* 验证结束 */

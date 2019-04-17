@@ -1,0 +1,90 @@
+section{
+    width: 100%;
+}
+#banner{
+    width: 100%;
+}
+#banner>img{
+    width: 100%;
+}
+#content{
+    width: 100%;
+}
+#content .preset{
+    width: 70%;
+    margin: 0 auto 1rem;
+    padding-top: 5rem;
+}
+.preset>img{
+    width: 100%;
+    transform: scale(1.5);
+}
+.preset>ul{
+    justify-content: space-between
+}
+.preset>ul>li{
+    width: 23.5%;
+}
+.preset>ul>li:nth-child(1),.preset>ul>li:nth-child(2){
+    width: 49%;
+}
+.preset>ul>li img{
+    width: 100%;
+}
+.preset>h3{
+    margin-top: 4rem;
+    text-align: center;
+}
+.preset>h3>a{
+    color:#fff;
+    display: inline-block;
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    background: #000;
+}
+.preset>h3>a:hover{
+    opacity: 0.8;
+}
+.preset_2 ul>li:first-child{
+    width: 100%;
+}
+.preset_2 ul>li:first-child~li{
+    width: 49%;
+}
+@keyframes change{
+    0%{transform: translate(0)}
+    6.25%{transform: translate(0%)}
+    12.5%{transform: translate(-100%)}
+    18.75%{transform: translate(-100%)}
+    25%{transform: translate(-200%)}
+    31.25%{transform: translate(-200%)}
+    37.5%{transform: translate(-300%)}
+    43.75%{transform: translate(-300%)}
+    50%{transform: translate(-300%)}
+    56.25%{transform: translate(-200%)}
+    62.5%{transform: translate(-200%)}
+    68.75%{transform: translate(-200%)}
+    75%{transform: translate(-100%)}
+    81.25%{transform: translate(-100%)}
+    87.5%{transform: translate(-100%)}
+    93.75%{transform: translate(0)}
+    100%{transform: translate(0)}
+}
+#content .preset_3{
+    overflow: hidden;
+}
+#content .preset_3 ul{
+    width: 400%;
+}
+#content .preset_3 ul>li{
+    width: 25%;
+    float: left;
+    animation: change 40s linear  infinite forwards;
+    animation-direction:alternate;
+}
+#content .preset_4 ul>li.w-50{
+    width: 49%;
+}
+#content .preset_4 ul>li.w-25{
+    width: 23.5%;
+}

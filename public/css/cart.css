@@ -1,0 +1,202 @@
+#container{
+    width: 100%;
+    background: #f5f5f5;
+}
+#container section{
+    width: 80%;margin: auto;
+    padding-top:4rem ;
+}
+#container section::before{
+    content: "";
+    display: table;
+}
+.promotion>a{
+    background: #ffebe8;
+    border-color:#ffebe8;
+    color: #000;
+    display: flex;
+    padding: 0.5rem .8rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.promotion>a::after{
+    content: ">";
+    display: inline-block;
+    font-size: 1rem;
+}
+.promotion>a:hover{
+    background: #fcd9d4;
+    border-color:#fcd9d4;
+}
+.main{
+    background: #fff;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+}
+.main>.title{
+    width: 90%;margin: auto;
+}
+.main .totle{
+    width: 95%;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+.main .totle .btn{
+    justify-content: flex-start;
+}
+.main .btn input{
+    width: 2rem;
+    height: 1rem;
+    border-right:0;
+}
+.main .btn *{
+    padding:1px;
+    display: block;
+    border:1px solid #000;
+    margin: 0;
+}
+.main .btn a{
+    width: 1rem;height: 1rem;
+    height: 100%;
+    border:1px solid #000;
+    text-align: center;
+    color:#000;
+}
+.main .btn a:first-child{
+    border-right: 0;
+}
+.dele>a{
+    font-size: 0.6rem;
+    color: #000;
+}
+.sum{
+    text-align: right;
+}
+.check{
+    display: flex;
+    justify-content: space-between;
+}
+.check>input[type="checkbox"]{
+    visibility: hidden;
+    width: 0;height: 0;
+    margin: 0;
+}
+.check>input:checked+label{
+    background: #418e5a;
+}
+.check>input:checked+label::after{
+    content: "✔";
+    display:block;
+    margin: auto;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 700;
+    color: #fff;
+}
+.check>label{
+    display: inline-block;
+    width: 1rem;height: 1rem;
+    background: #ccc;
+    margin-right: .5rem;
+    cursor: pointer;
+}
+.content>.goods{
+    width: 90%;
+    margin: auto;
+    margin-bottom: .8rem;
+    justify-content: space-between;
+}
+.content>.goods>.good{
+    width: 15%;
+    text-align: center;
+    background: #ccc;
+    padding: 1.5rem 0;
+    margin-right: .8rem;
+}
+.content .good>img{
+    width: 50%;
+}
+.content>.goods .stime,.content>.goods a{
+    font-size: .6rem;
+}
+.content>.goods a{
+    color: #000;
+}
+.content>.goods a:hover{
+    font-weight: 700;
+}
+.choseAll{
+    width: 100%;
+    border:1px solid #ccc;
+    background: #ffffff;
+}
+.choseAll>div{
+    width: 80%;margin: auto;
+    padding: 1.5rem 0;
+    justify-content: space-between;
+}
+.choseAll>div>.chosebtn{
+    margin-right: 45%;
+}
+.choseAll>div>a{
+    background: #000;
+    margin-top: 0;
+    padding:.8rem 3rem ;
+}
+.choseAll>div>a:hover{
+    color: #fff;
+    opacity: .8;
+}
+.choseAll>div>.total{
+    padding: .5rem 1rem;
+    border-right:1px solid #ccc;
+    color: #A0A0A0
+}
+.choseAll>div>.total em{
+    margin-left: .5rem;
+    display: inline-block;
+    width: 0.6rem;line-height: 0.6rem;
+    text-align: center;
+    border-radius:50%;
+    color: #000;
+    border:1px solid #000;
+}
+.choseAll>div>.total p:nth-child(2)>i{
+    position: relative;
+}
+#yhdetail{
+    display: block;
+    width: 20rem;height: 10rem;
+    position: absolute;
+    top:-10.5rem;
+    right: -115%; 
+    border:1px solid #000;
+    background: #fff;
+    display: none;
+    z-index: 1;
+}
+#yhdetail::after{
+    content:"";
+    display: inline-block;
+    position: absolute;
+    bottom: -0.37rem;
+    right:20%;
+    width: 10px;height: 10px;
+    border:1px solid #000;
+    border-left: 0;
+    border-top:0;
+    background: #fff;
+    transform: rotate(45deg);
+}
+/*******sidebar*************/
+#sidebar>.service::after{
+    content:"客服";
+}
+#sidebar>.service>a{
+    background:url("../img/index/sidebar-icon_a1de432.png") no-repeat -999px -18px;
+}
+#sidebar>.service>a:hover{
+    background-position: -719px -18px;
+}
+/*******sidebar END*********/

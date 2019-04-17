@@ -1,0 +1,83 @@
+section .floor ul{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+section .floor ul>li{
+    position: relative;
+    width: 25%;
+}
+section .floor ul>li>div:first-child>a{
+    display: block;
+}
+section .floor ul>li>div:first-child>a>img{
+    width: 80%;
+}
+section .floor ul>li>div:first-child>a>p,section .floor ul>li>:first-child>a+span{
+    color: #000;
+    font-size: .8rem;
+    font-weight: 700;
+}
+section .floor ul>li>div:last-child{
+    display: none;
+    /* opacity: 0.7; */
+    width: 100%;height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s linear;
+}
+section .floor ul>li>div:last-child a{
+    color:#000;
+    font-weight: 700;
+    width: 100%;
+    height: 80%;
+    display: block;
+    background:url("../img/index/floor-1-1@!small.jpg") no-repeat 1.7rem;
+    background-size: contain;
+    border-bottom: 2px solid #555;
+}
+section .floor ul>li:nth-child(2)>div:last-child a{
+    background:url("../img/index/floor-1-2@!small.jpg") no-repeat 1.7rem;
+    background-size: contain;
+}
+section .floor ul>li:nth-child(3)>div:last-child a{
+    background:url("../img/index/floor-1-3@!small.jpg") no-repeat 1.7rem;
+    background-size: contain;
+}
+section .floor ul>li:nth-child(4)>div:last-child a{
+    background:url("../img/index/floor-1-4@!small.jpg") no-repeat 1.7rem;
+    background-size: contain;
+}
+section .floor ul>li:nth-child(5)>div:last-child a{
+    background:url("../img/index/floor-1-5@!small.jpg") no-repeat 1.7rem;
+    background-size: contain;
+}
+section .floor ul>li:nth-child(6)>div:last-child a{
+    background:url("../img/index/floot-1-6@!small.jpg") no-repeat 1.7rem;
+    background-size: contain;
+}
+section .floor ul>li:nth-child(7)>div:last-child a{
+    background:url("../img/index/floot-1-7@!small.jpg") no-repeat 1.7rem;
+    background-size: contain;
+}
+section .floor ul>li:nth-child(8)>div:last-child a{
+    background:url("../img/index/floot-1-8@!small.jpg") no-repeat 1.7rem;
+    background-size: contain;
+}
+section .floor ul>li>div:last-child a>div{
+    width: 50%;
+    height: 40%;
+    padding: 1rem 0.2rem;
+    font-size: 0.8rem;
+    margin:20% auto;
+    text-align: center;
+    box-sizing: border-box;
+    border:5px solid #000;
+}
+section .floor ul>li>div:last-child p:nth-child(2){
+    color: #000;
+    font-size: .8rem;
+    font-weight: bold;;
+}
